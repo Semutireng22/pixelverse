@@ -58,18 +58,24 @@ To run the bot in the background using `screen`, follow these steps:
    ```sh
    source venv/bin/activate
    ```
-
-4. **Run the Bot**
+4. **Edit Data**
+   To edit data.txt run command :
+   ```sh
+   nano data.txt
+   ```
+   and press `CTRL + X + Y + ENTER`
+   
+6. **Run the Bot**
 
    ```sh
    python3 bot.py
    ```
 
-5. **Detach from the Screen Session**
+7. **Detach from the Screen Session**
 
    Press `Ctrl + A`, then `D` to detach from the screen session and leave the bot running in the background.
 
-6. **Get Telegram data**
+8. **Get Telegram data**
    
    1. Active web inspecting in telegram app, How to activate follow the video [https://youtu.be/NYxHmck_GjE](https://youtu.be/NYxHmck_GjE)
    2. Goto pixeltap bot and open the apps
