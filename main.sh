@@ -81,14 +81,6 @@ source venv/bin/activate
 echo -e "\033[1;33mInstalling required Python packages...\033[0m"
 pip3 install -r requirements.txt
 
-# Open data.txt in nano editor
-echo -e "\033[1;33mOpening data.txt in nano editor...\033[0m"
-nano data.txt
-
-# Change directory to the cloned repository
-echo -e "\033[1;33mOpening directory to pixelversexyzbot...\033[0m"
-cd pixelversexyzbot
-
 # Display installation success message
 echo -e "\033[1;32m"
 center_text "Instalasi telah berhasil! Terima kasih telah menggunakan skrip ini. Silahkan Jalankan bot ini dengan python3 bot.py"
